@@ -59,11 +59,11 @@ const automobili = [
 ];
 
 //Dividi le automobili in 3 array separati
-const benzina = automobili.filter(automobili => automobili.alimentazione =='benzina');
+const benzina = automobili.filter(auto => auto.alimentazione =='benzina');
 console.log(benzina);
-const diesel = automobili.filter(automobili => automobili.alimentazione =='diesel');
+const diesel = automobili.filter(auto => auto.alimentazione =='diesel');
 console.log(diesel);
-const resto = automobili.filter(automobili => automobili.alimentazione !=='diesel'&&automobili.alimentazione !=='benzina' );
+const resto = automobili.filter(auto => auto.alimentazione !=='diesel'&&auto.alimentazione !=='benzina' );
 console.log(resto);
 
-
+/* cras.filter(car) */
